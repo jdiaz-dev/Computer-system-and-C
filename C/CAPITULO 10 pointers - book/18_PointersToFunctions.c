@@ -1,0 +1,3 @@
+/*
+    check again pointers to functions
+*/

@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "type_traits": "c",
+        "functional": "c",
+        "5_metric.h": "c",
+        "stddef.h": "c",
+        "8_#if_and_#elif_preprocessor.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

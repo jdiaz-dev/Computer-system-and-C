@@ -15,7 +15,7 @@ int main(void)
    */
   
 
-//int_pointer access indirectly to count variable
+  //int_pointer access indirectly to count variable
   int_pointer = &count;
   /* 
     & :  address operator, used to make a pointer to an object in C

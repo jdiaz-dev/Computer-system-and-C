@@ -5,8 +5,12 @@ int arraySum (int *array, const int n)
   int * const arrayEnd = array + n;
 
   //we void use another variable to use it as iterator, instead we will use only de pointer
-  for ( ; array < arrayEnd; ++array ) //increment operator do not affect to values of array
-  sum += *array;
+  for ( ; array < arrayEnd; ++array ) { //increment operator do not affect to values of array
+    printf("value of array = %i\n", *array);
+    printf("value of pointer = %i\n", array);
+    sum += *array;
+
+  }
   return sum;
 }
 int main (void)

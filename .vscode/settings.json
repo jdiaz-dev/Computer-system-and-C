@@ -54,6 +54,7 @@
     "set": "cpp",
     "unordered_set": "cpp",
     "stdio.h": "c",
-    "limits.h": "c"
+    "limits.h": "c",
+    "list": "cpp"
   }
 }

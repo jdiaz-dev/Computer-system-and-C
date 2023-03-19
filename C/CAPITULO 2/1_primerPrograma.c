@@ -1,7 +1,7 @@
 #include <stdio.h>  
 //debe estar incluido al principio de cada programa, este narra la informacion al compliador acerca de printf(), tambien permite usar scanf()
 
-int main(void)  //void especifica que main() no tien argumentos
+int main()  //void especifica que main() no tien argumentos
 //informa al sistema que el nombre del program es main(), y retorna un valor entero el cual es "int"
 //main() es una palabra espeial que indica donde comenzara la execucion
 //cuando abrimos los parentesis indicamos que es una funcion
@@ -20,6 +20,15 @@ int main(void)  //void especifica que main() no tien argumentos
         gcc -Wall -save-temps filename.c –o filename 
  */
 
+/* 
+
+    DLL on Linux
+    - to compile file: gcc -c -Wall -Werror -fpic MathLibrary.cc
+    - to read file: readelf -s MathLibrary.o
+    - to convert .o in .so file or Linux DLL .so extension gcc -shared -o MathLibrary.so MathLibrary.o
+
+    - min 2: 03   https://www.youtube.com/watch?v=qEWOysXrDy0
+ */
 
 //todo el contenido dentro de las llaves( {} ) forma parte de main()
 {

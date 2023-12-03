@@ -17,14 +17,15 @@ template <typename MyType>
 //instead to define these types as paramas we will define templates
 //internally the compiler crate 2 functions and will be replaced with its respective datatypes
 
-MyType getMax(MyType x, MyType y){
+MyType getMax(MyType x, double y){
+  // cout << "the y :" << y << endl;
   return x > y ? x : y;
 }
 
 int main(){
   int x = 18, y = 20;
-  cout << getMax<int>(x, y) << endl;
-
+  double z = 50.44;
+  cout << getMax<int>(x, z) << endl;
 
   char c1 = 'a', c2 = 'x';
   cout << getMax<char>(c1, c2) << endl;

@@ -1,5 +1,6 @@
 #include <iostream>
 #include "namespace-and-class.h"
+// #include "struct-inside-namespace.h"
 
 node_module theNode::NodeJS::GetSavedModuleFromGlobalHandleMap(){
     struct node_module nodeModule1;
@@ -17,10 +18,17 @@ node_module theNode::NodeJS::GetSavedModuleFromGlobalHandleMap(){
 
 int main()
 {
-    theNode::NodeJS nodejs;
+
+    // it is posible to use a namespace from a file that included another namespaces
+    nodeEcosystem::FrameworksAndLibraries faa;
+    faa.frameworks = "angular";
+    faa.libraries = "react";
+    std::cout << "the framework: " << faa.frameworks << std::endl;
+    
+    theNode::NodeJS nodejs;//instantiating
     node_module nm = nodejs.GetSavedModuleFromGlobalHandleMap();
     // node_module myModule = NodeJS::GetSavedModuleFromGlobalHandleMap();
-    std::cout << nm.platform << std::endl;
+    std::cout << "platform: " << nm.platform << std::endl;
 
     /* SENTENCE_MACRO('a','e','i'); */
     
@@ -33,4 +41,5 @@ int main()
     std::cout << numberAdded << std::endl;
     std::cout << example.frameworks + " from main file" << std::endl;
     std::cout << "Hello super Korah" << std::endl;
+
 }

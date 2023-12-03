@@ -55,6 +55,8 @@
     "unordered_set": "cpp",
     "stdio.h": "c",
     "limits.h": "c",
-    "list": "cpp"
+    "list": "cpp",
+    "8_#if_and_#elif_preprocessor.h": "c",
+    "conio.h": "c"
   }
 }

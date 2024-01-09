@@ -5,7 +5,9 @@
 
 class Log {
   public:
+                    //it is ilegal to use this constructor
     Log() = delete; //to delete default constructor (deleting constructor)
+    Log(char vaklue);//it is not ilegal to use this constructor
     static void Write(){
       std::cout << "I am writing the log" <<std::endl;  
     }

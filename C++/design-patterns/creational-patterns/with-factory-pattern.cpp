@@ -3,7 +3,7 @@
 using namespace std;
 
 enum VehicleType {
-  TV_TwoWheeler,
+  TV_TwoWheeler = 888,
   TV_ThreeWheeler,
   TV_FourWheeler,
 };
@@ -12,6 +12,8 @@ class Vehicle {
   public:
     virtual void printVehicle() = 0;
     static Vehicle *Create(VehicleType type);
+
+
 };
 
 class TwoWheeler : public Vehicle {
@@ -57,6 +59,7 @@ class Client {
   public:
     Client(){
       VehicleType type = TV_TwoWheeler;
+      std::cout << "checking enum: " << TV_TwoWheeler << std::endl;
       pVehicle = Vehicle::Create(type);
     }
 
@@ -66,6 +69,12 @@ class Client {
         pVehicle = NULL;
       }
     }
+    enum AmountAvailableWheels {
+      ONE,
+      THREE,
+      FIVE = 5
+    };
+
     Vehicle* getVehicle(){
       return pVehicle;
     }
@@ -73,6 +82,7 @@ class Client {
 
 int main(){
   Client *pClient = new Client();
+  std::cout << "enums: " << pClient->ONE << std::endl;
   Vehicle *pVehicle = pClient->getVehicle();
   pVehicle->printVehicle();
 

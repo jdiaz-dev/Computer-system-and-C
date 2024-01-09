@@ -29,8 +29,8 @@ int main()
   player.speed = 1;
 
   player.move(1, -1);
-  cout << "The value of x = " << player.x;
-  cout<<endl;
+  cout << "The valuee of x = " << player.x << endl;
+  cout << "The valuee of y = " << player.y << endl;
   // std::cin.get();
 
 }

@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 typedef int myinteger;
 typedef char *mystring;
@@ -12,6 +15,14 @@ typedef int (*myTypeDefSubstraction)(
     int num2,
     int num3);
 
+typedef struct {
+  // One of utf8name or name should be NULL.
+  const char* utf8name;
+  string name;
+  int value;
+//   void* data;
+} napi_property_descriptor;
+
 int myAdditionFunction(int num1, int num2)
 {
     return num1 + num2;
@@ -21,9 +32,9 @@ int mySubstractionFunction(int num1, int num2, int num3)
 {
     return num1 - num2 - num3;
 }
-void _register_isolate_##modname(int num){
+/* void _register_isolate_##modname(int num){
     
-}
+} */
 
 int main()
 {
@@ -38,6 +49,10 @@ int main()
     std::cout << theChar << std::endl;
     std::cout << addition << std::endl;
     std::cout << substraction << std::endl;
+
+    //it is possible to create a struct with its definition 
+    napi_property_descriptor myStruct = {"name", "name", 233};
+    std::cout << myStruct.utf8name << " " << myStruct.name << " " << myStruct.value << std::endl;
 
     return 0;
 }

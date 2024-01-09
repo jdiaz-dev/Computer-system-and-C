@@ -25,8 +25,7 @@
 #define MY_OR ||
 #define EQUALS ==
 #define YEAR 201
-#define IS_LEAP_YEAR YEAR % 4 == 0 && YEAR % 100 != 0 \  
-  || YEAR % 400 == 0  //use backslash for long statement
+#define IS_LEAP_YEAR YEAR % 4 == 0 && YEAR % 100 != 0 || YEAR % 400 == 0  //use backslash for long statement
 
                           //to void pitalls we need to use parenthesis
 #define IS_LEAP_YEAR_TWO(y) ((y) % 4 == 0 && (y) % 100 != 0 \

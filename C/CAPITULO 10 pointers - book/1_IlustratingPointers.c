@@ -31,6 +31,8 @@ int main(void)
                             //Reference: it show address of memory
   printf ("checking 1: count = %i, x = %i\n", &count, &x);//-13420, x = -13424
   printf ("checking 2: int_pointer = %i\n", int_pointer); //-13420  as integer
+
+                                  //%p : it prints pointers
   printf ("checking 2: int_pointer = %p\n", int_pointer); //0xffffcb94 as hexadecimal
                             //Dereference: it show value of the variable
   printf ("checking 2: int_pointer = %i\n", *int_pointer); //20

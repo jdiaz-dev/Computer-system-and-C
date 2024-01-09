@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    class Foo {
+      a = 1;
+    }
+
+    const foo = new Foo();
+
+    //with message channel we can execute 2 differents script attached to the same file
+    const mc = new MessageChannel();
+    mc.port1.onmessage = ({data}) => console.log(data);   // receive info
+    mc.port2.postMessage(foo);//send info
+
+
+    // const mp = new MessagePort()
+
+    // const jst = new JSTransferable()
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

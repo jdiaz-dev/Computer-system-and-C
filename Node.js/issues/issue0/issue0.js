@@ -7,9 +7,8 @@
           - check binging namespaces
           - check documentattion node.js c++ codebase
                 -checking event loop in node c++ documentation (event_loop, environment, isolate) environment in c++
-          - cheking creation on woker in c++ (it another an v8::environment)//here
-
-
+          - cheking creation on woker in c++ (it another an v8::environment)
+          - build cpp internals architecture//here
 
     * target: 
       - use node::solve Segmentation fault (core dumped)

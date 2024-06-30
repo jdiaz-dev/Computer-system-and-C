@@ -6,7 +6,7 @@
   <title>Document</title>
   <script>
     class Foo {
-      a = 1;
+      a = 12123121;
     }
 
     const foo = new Foo();
@@ -15,6 +15,7 @@
     const mc = new MessageChannel();
     mc.port1.onmessage = ({data}) => console.log(data);   // receive info
     mc.port2.postMessage(foo);//send info
+    console.log(`The preferred languages are '${navigator.languages}'`);
 
 
     // const mp = new MessagePort()

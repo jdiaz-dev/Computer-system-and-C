@@ -18,15 +18,6 @@
 */
 
 /* 
-  - participating in this issue : https://github.com/nodejs/node/issues/37080
-  - check extension for c++
-  - what is host object in v8 context
-
-
-
-*/
-
-/* 
   LEARNING C AND C++
     - learning how to display entire strcut - discarted x
     - how to display memory content x
@@ -40,3 +31,4 @@
   node
     test binding.cc
 */
+

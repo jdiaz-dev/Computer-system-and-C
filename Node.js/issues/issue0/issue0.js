@@ -8,7 +8,8 @@
           - check documentattion node.js c++ codebase
                 -checking event loop in node c++ documentation (event_loop, environment, isolate) environment in c++
           - cheking creation on woker in c++ (it another an v8::environment)
-          - build cpp internals architecture//here
+          - build cpp internals architecture
+          - check event loop and libuv in doc//here
 
     * target: 
       - use node::solve Segmentation fault (core dumped)

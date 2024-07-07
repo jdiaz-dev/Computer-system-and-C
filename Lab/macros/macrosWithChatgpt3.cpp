@@ -41,12 +41,12 @@ void otherFunctionMore(int value)
         modNumber,                                             \
         amountFlags};                                          \
     helperFn(functionAsParam);                                 \
-    otherFunction(modNumber);                                  \
-    declare_function(modNumber)
+    otherFunction(modNumber);                                  
+    // declare_function(modNumber)
 
 //it is possible to declare function inside a macro
-#define declare_function(modNumber) \
-    void _function_##modNumber();
+// #define declare_function(modNumber) \
+//     void _function_##modNumber();
 
 //it is possible to define function inside a macro
 #define define_function(modNumber) \
@@ -56,13 +56,13 @@ void otherFunctionMore(int value)
 #define call_function(modNumber) \
     _function_##modNumber();
 
-define_function(10000)
+define_function(90000)
 
 int main()
 {
 
-    call_function(10000);//10000: we need to use 10000 because with this number was created the function
-    NODE_BINDING_CONTEXT_AWARE_CPP(10099999, 30);
+    call_function(90000);//10000: we need to use 10000 because with this number was created the function
+    NODE_BINDING_CONTEXT_AWARE_CPP(1009999976, 30);
     return 0;
 }
 

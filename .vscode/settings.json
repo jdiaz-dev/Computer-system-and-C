@@ -52,6 +52,17 @@
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "chrono": "cpp",
+    "filesystem": "cpp",
+    "any": "cpp",
+    "codecvt": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "map": "cpp",
+    "ratio": "cpp",
+    "iomanip": "cpp",
+    "ranges": "cpp",
+    "valarray": "cpp"
   }
 }

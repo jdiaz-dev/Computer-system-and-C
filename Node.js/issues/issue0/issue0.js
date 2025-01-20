@@ -16,14 +16,12 @@
           - cheking worker pointer instead of instantiation
           
           
-          //here internal field, 
           - internal_field,
           - check if it is possible import function from very nested header file
           - check with juan arbol arguments in c++
           - check this syntax: RequestInterrupt([taker = std::move(taker), env, options]( , mutable
           - build the debugger mode
-
-
+          //here: try to debug with compliled code, 
 
     * target: 
       - use node::solve Segmentation fault (core dumped)

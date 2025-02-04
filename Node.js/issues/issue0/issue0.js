@@ -46,5 +46,5 @@
 /* 
   possible PRs
      use ecmascript code in event emitters
-
+    - there are not links to #Settings_Keys in node-gyp
 */

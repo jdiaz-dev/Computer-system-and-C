@@ -1,4 +1,5 @@
 #include "macro-and-class.h"
+#include "macro-and-class2.h"
 #include <iostream>
 
 int main(){

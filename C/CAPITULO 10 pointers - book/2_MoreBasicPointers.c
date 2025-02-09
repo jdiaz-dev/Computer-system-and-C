@@ -17,7 +17,7 @@ int main(void)
     --we can change the value of a variable throght a variable that point itself
     --indirection operator in action?
    */
-  *char_pointer = '('; //we are changing the variable that is pointed  by char_pointer, now c = '/'
+  *char_pointer = '('; //we are changing the variable that is pointed  by char_pointer, now c = '('
   printf("Three %c %c\n", c, *char_pointer);
 
   return 0; 

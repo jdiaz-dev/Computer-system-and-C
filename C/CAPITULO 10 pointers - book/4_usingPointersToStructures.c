@@ -7,11 +7,13 @@ int main (void) {
     int year;
   };
 
-  struct date today, *datePointer;
+  struct date today, *datePointer; //datePointer is a pointer to a structure of type date, not a struct itself
   datePointer = &today;
 
   //the parenthesis is required because the member (accessing to member of struct) of structure  .  has more precedence than the indirection operator *
   (*datePointer).day = 21;
+  
+  //datePointer.day = 22; //imposible to realize it because it is a pointer to a structure, not a structure itself
 
   //or
 

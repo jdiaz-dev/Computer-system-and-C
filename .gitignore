@@ -2,3 +2,5 @@
 *.exe
 *.txt
 a.out
+main
+libmyclass.so

@@ -3,3 +3,4 @@
 //analize the parameters of spawn method in c++
 //creating custom spawnsito method and checking args parameter
 // checking Local<Value> file_v (v8)
+// testing link libraries in c++

@@ -4,3 +4,4 @@
 //creating custom spawnsito method and checking args parameter
 // checking Local<Value> file_v (v8)
 // testing link libraries in c++
+// learning envrionemnt, context, etc about node.js 

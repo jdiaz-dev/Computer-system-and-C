@@ -4,4 +4,5 @@
 //creating custom spawnsito method and checking args parameter
 // checking Local<Value> file_v (v8)
 // testing link libraries in c++
-// learning envrionemnt, context, etc about node.js 
+// learning envrionemnt, context, etc about node.js
+// checking  how options.file is assigned with "pwd" linux command (spanw mwthod)  

@@ -18,9 +18,13 @@ int main(void)
     --indirection operator in action?
    */
   *char_pointer = '('; //we are changing the variable that is pointed  by char_pointer, now c = '('
-  printf("Three %c %c\n", c, *char_pointer);
+  printf("Three %c %c\n", c, *char_pointer); // *char_pointer, show the use of DEFERENCE OPERATOR
 
   return 0; 
 }
 
 
+/* 
+DEFERENCE OPERATOR
+  - The primary use of the dereference operator is to access the value at a given memory address.
+ */

@@ -6,3 +6,4 @@
 // testing link libraries in c++
 // learning envrionemnt, context, etc about node.js
 // checking  how options.file is assigned with "pwd" linux command (spanw mwthod)  
+//checking overload of opearators in c++, class Utf8Value

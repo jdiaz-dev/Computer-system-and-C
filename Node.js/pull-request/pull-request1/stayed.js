@@ -9,3 +9,4 @@
 //checking overload of opearators in c++, class Utf8Value
 // chekcing AllocateSufficientStorage in util-inl.h
 // check what makes () in this sentence :buf_[length] = T();  SetLengthAndZeroTerminate method
+//checking why file.options has pwd command : node::Utf8Value file(env->isolate(), file_v);

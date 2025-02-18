@@ -6,9 +6,8 @@ template<typename T>
 class ExtraArrayElementInitialization {
 public:
     T* buf_;      // Pointer to store the dynamically allocated array
-    size_t length; // Length of the input string
+    size_t length;
 
-    // Constructor accepting a std::string
     ExtraArrayElementInitialization(const std::string& str) {
         length = str.size(); 
         

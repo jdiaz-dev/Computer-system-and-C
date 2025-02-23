@@ -12,3 +12,5 @@
 //checking why file.options has pwd command : node::Utf8Value file(env->isolate(), file_v);
 //checking mystery in buf_ variable
 //check why don't work find all references in vscode, check right extensions for it
+//debgger working 
+//understand what means MakeUtf8String  method (what is the intention), check what is isolate, check what happens with value

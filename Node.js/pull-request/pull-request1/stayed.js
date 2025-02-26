@@ -14,3 +14,4 @@
 //check why don't work find all references in vscode, check right extensions for it
 //debgger working 
 //understand what means MakeUtf8String  method (what is the intention), check what is isolate, check what happens with value
+//AllocateSufficientStorage method: review was_allocated, create a T* buf_ with char, check Realloc method, check memcpy of sqlite3

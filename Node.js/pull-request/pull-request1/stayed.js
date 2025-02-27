@@ -15,3 +15,6 @@
 //debgger working 
 //understand what means MakeUtf8String  method (what is the intention), check what is isolate, check what happens with value
 //AllocateSufficientStorage method: review was_allocated, create a T* buf_ with char, check Realloc method, check memcpy of sqlite3
+
+//debug where is pwd AllocateSufficientStorage , SetLengthAndZeroTerminate methods
+//execute test.js file to check how it is received options in c++ side, chck how to works pipes in Node.js, realize test with child_process

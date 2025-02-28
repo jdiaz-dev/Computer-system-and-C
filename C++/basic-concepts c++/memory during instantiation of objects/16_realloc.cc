@@ -31,3 +31,4 @@ int main() {
     free(ptr);
     return 0;
 }
+//q: what memory pools , preallocated buffers

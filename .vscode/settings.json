@@ -63,6 +63,8 @@
     "ratio": "cpp",
     "iomanip": "cpp",
     "ranges": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "stdio.h": "c",
+    "my_c_code.h": "c"
   }
 }

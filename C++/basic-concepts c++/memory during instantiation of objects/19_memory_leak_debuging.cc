@@ -10,3 +10,10 @@ int main() {
     std::cout << "Program finished!\n";
     return 0;
 }
+/* 
+    command:
+        - sudo apt update && sudo apt install valgrind
+        - valgrind --leak-check=full --show-leak-kinds=all ./my_program
+
+
+ */

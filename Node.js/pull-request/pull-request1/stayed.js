@@ -20,4 +20,4 @@
 //execute test.js file to check how it is received options in c++ side, chck how to works pipes in Node.js, realize test with child_process
 //test r-test.js and see stdio options
 //check options.args[i] in spawn method
-
+//check changes not approved of juan arbol

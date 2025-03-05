@@ -1,14 +1,12 @@
-// const { nextTick } = require('node:process');
+const { spawn } = require("child_process");
+const obj = {};
 
-const callback = (argument) => {
-  console.log("----------argument", argument);
-  console.log("nextTick callback");
-};
+Object.defineProperty(obj, "0", {
+  set() {
+    console.log("------------123");
+  },
+});
 
-console.log("start");
-process.nextTick(callback, "foooooo");
-console.log("scheduled");
-// Output:
-// start
-// scheduled
-// nextTick callback
+obj[0] = "test"; // Works fine
+spawn("ls");
+// spawn("ls", ["-lh", "/usr"]);

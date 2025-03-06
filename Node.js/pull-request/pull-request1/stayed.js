@@ -22,3 +22,4 @@
 //check options.args[i] in spawn method
 //check changes not approved of juan arbol
 //check what reason changes in c++ layer help with the issue where is participating juan arbol
+//checking how is created one array with assigned property in v8 engine

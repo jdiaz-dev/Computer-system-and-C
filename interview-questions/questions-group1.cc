@@ -1,5 +1,5 @@
 //source: https://www.geeksforgeeks.org/cpp-interview-questions/
-//stayed - question 15
+//stayed - question 22
 
 /* 
 * to check 
@@ -9,10 +9,9 @@
 - 10. What is the difference between function overloading and operator overloading?
 - 13.  Discuss the difference between prefix and postfix?
 - 14. What is the difference between new and malloc()?
-
+- 22. What is polymorphism in C++?
 
  */
-
 
 /* 
 other questions

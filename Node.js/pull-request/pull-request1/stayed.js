@@ -29,3 +29,5 @@
 //think in collaborate in test c++
 
 //analizing extern "C" void node_module_register in node_binding.cc
+//analizing node_test_fixture.h and .cc file for test; allow to see node::InitializeNodeWithArgs method
+//review gtest library

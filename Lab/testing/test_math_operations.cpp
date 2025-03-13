@@ -50,11 +50,3 @@ TEST_F(MathOperationsTest, AddFunction) {
     EXPECT_EQ(add(a, -b), 5);
     EXPECT_EQ(add(0, b), 5);
 }
-/* 
-    * to compile with cmake
-        mkdir build
-        cd build
-        cmake ..
-        make
-
- */

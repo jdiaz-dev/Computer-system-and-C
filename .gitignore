@@ -6,3 +6,4 @@ a.out
 main
 libmyclass.so
 help*
+build/

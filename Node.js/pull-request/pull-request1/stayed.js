@@ -33,3 +33,4 @@
 //review gtest library
 // checking test_node_crypto_env test
 //check args in Labs
+//checking Computer-system-and-C/C++/basic-concepts c++/structs example (for args in node.js c++ side)
